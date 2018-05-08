@@ -67,7 +67,7 @@ class Course {
     // then adds the student to the `this.students` Array. 
     // Used `updateRoster()` to update the roster with changes.
 
-    add student(){
+    addStudent(){
         let name = prompt('Student Full Name:');
         let email = prompt('Student Email:');
         let newStudent = new Student(name, email);
