@@ -42,6 +42,7 @@ class Student extends Person {
         }
     }
 }
+
 //Created class that extends the `Person` class called `Teacher`.
 
 class Teacher extends Person {
@@ -64,7 +65,7 @@ class Course {
 
     // Created`addStudent()`method that prompts the user for
     // information required to create a new `Student` object (`name`, `email`)
-    // then adds the student to the `this.students` Array. 
+    // then added the student to the `this.students` Array. 
     // Used `updateRoster()` to update the roster with changes.
 
     addStudent(){
@@ -77,7 +78,7 @@ class Course {
 
     // Created a method called `setTeacher()` that prompts the user for the
     // information required to create a `Teacher` object (`name`, `email`), 
-    // then sets the `this.teacher` property equal to the new `Teacher` object.
+    // then set the `this.teacher` property equal to the new `Teacher` object.
 
     setTeacher(){
         let name = prompt('Teacher Full Name:');
